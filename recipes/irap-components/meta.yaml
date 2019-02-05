@@ -25,7 +25,7 @@ test:
 
 about:
   home: https://github.com/nunofonseca/irap
-  dev_url: https://github.com/ebi-gene-expression-group/r-seurat-scripts
+  dev_url: https://github.com/ebi-gene-expression-group/irap
   license: GPL-3
   summary: A lightweight distribution of iRAP without binaries. Nuno Fonseca's
       iRAP tool is an integrated RNA-seq anlaysis pipeline. It's based on Make
