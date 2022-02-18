@@ -1,4 +1,4 @@
-{% set version = "1.2.50" %}
+{% set version = "1.2.128" %}
 
 package:
   name: pango-designation
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/cov-lineages/pango-designation/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 45d3b13ab4d2a626b45099c5bbac150ef184a05b7b04119134ba229a6a9b6282
+  sha256: 4091c702a498a8a42529579b7f577d34fc9a504583b3a29e167467fba41864f4
 
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install --no-deps --ignore-installed -vv .
 
 requirements:
   host:

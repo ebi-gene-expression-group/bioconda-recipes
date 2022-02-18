@@ -1,10 +1,10 @@
 package:
   name: perl-sereal-decoder
-  version: "4.007"
+  version: "4.020"
 
 source:
-  url: https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-4.007.tar.gz
-  sha256: 0508118344682c22e179e85e69bb0771fb0af2965cfa5d7a7d5d097b69ffcc4b
+  url: https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-4.020.tar.gz
+  sha256: 18b3b2536ce743adb9c636578abc9837d596bee7511926b8a703df2279887217
 
 build:
   number: 0

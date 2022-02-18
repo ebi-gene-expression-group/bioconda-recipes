@@ -1,13 +1,13 @@
-{% set version = "0.18.1" %}
+{% set version = "0.26.1" %}
 package:
   name: poseidon-trident
   version: {{ version }}
 
 source:
-  - url: https://github.com/poseidon-framework/poseidon-hs/releases/download/v{{ version }}/trident-centos7 # [linux]
-    md5: b945f14166a36657c6de56d3656b511a # [linux]
+  - url: https://github.com/poseidon-framework/poseidon-hs/releases/download/v{{ version }}/trident-conda-linux # [linux]
+    md5: 8a5bf663c01db1c17bf3c8ae0da9c87e # [linux]
   - url: https://github.com/poseidon-framework/poseidon-hs/releases/download/v{{ version }}/trident-macOS # [osx]
-    md5: 3f531e78178b6c93aa994320e2071737 # [osx]
+    md5: 83c92720c0d2cea69ff9a993e29c7668 # [osx]
 
 build:
   number: 0
